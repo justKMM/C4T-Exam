@@ -1,0 +1,28 @@
+body 
+{
+    background-color: rgb(20, 71, 119);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1
+{
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    align-self: center;
+}
+
+.button 
+{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+  
+.button:hover 
+{
+    background-color: #555555;
+    color: white;
+}
+
