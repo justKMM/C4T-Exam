@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CounterBox</title>
+    <link href="global.css" rel="stylesheet">
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>CounterBox</h1>
+        <p style="font-style: italic;">because every word counts.</p>
+        <br>
+        <br>
+        <button class="button onclick="CopyFunction()">Copy</button>
+        <button class="button name="clear" onclick="ClearFunction()">Clear</button>
+        <br>
+        <br>
+        <div style="text-align: center;">
+            <textarea id="input" style="width: 500px; height: 200px;" onkeyup="charcountupdate(this.value)"></textarea>
+            <div id="count"></div>
+        </div>
+    </div>
+
+
+    <script src="global.js"></script>
+</body>
+</html>
